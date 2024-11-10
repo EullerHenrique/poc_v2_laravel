@@ -1,0 +1,2930 @@
+[
+    {
+        "link": "https://cursos.alura.com.br/formacao-excel-vba-old",
+        "title": "Excel VBA",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "13/03/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-node-js",
+        "title": "Node.js",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "12/03/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-oracle-sql-plsql",
+        "title": "Oracle SQL e PL/SQL",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "18/02/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-python-web",
+        "title": "Python Web",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "18/02/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-certificacao-oracle-12c",
+        "title": "Certificação Oracle 12c",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "09/02/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-devops-com-aws",
+        "title": "DevOps com aws",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "13/01/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-desenhohumano-photoshop-v5197",
+        "title": "Desenho humano no Photoshop",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "29/09/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-devops-com-linux-e-git-v8519",
+        "title": "DevOps com Linux e Git",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "03/09/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-programacao-v2382",
+        "title": "Iniciante em Programação",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "28/08/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-react-js-antiga",
+        "title": "React JS antiga",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "30/07/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-zbrush",
+        "title": "ZBrush",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "23/07/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-kotlin-nao-publicar",
+        "title": "Kotlin desabilitada",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "23/07/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-data-science-v1500",
+        "title": "Data Science",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "21/07/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-react-antiga",
+        "title": "React antiga",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "22/06/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-front-end-2019",
+        "title": "Front-end",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "08/06/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-certificacao-cisco-ccna",
+        "title": "Certificação Cisco CCNA",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "02/04/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-ux-v234",
+        "title": "UX Design",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "19/01/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-identidade-visual-softwares-free-v94717",
+        "title": "Identidade Visual com softwares gratuitos",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "05/01/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-machine-learning-v1501",
+        "title": "Machine Learning",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "15/12/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-dotnet-v236",
+        "title": ".NET",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "27/11/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-node-js-12-v10130",
+        "title": "Node.JS",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "19/11/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-design-grafico-v1116",
+        "title": "Design Gráfico",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "17/11/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-producao-com-photoshop-v2603",
+        "title": "Produção com Photoshop",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "12/11/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-ios-v315",
+        "title": "iOS",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "20/10/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-editor-video-v1585",
+        "title": "Editor de vídeo",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "15/10/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-java-v235",
+        "title": "Java",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "08/10/2020"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-ui-sketch-v5205",
+        "title": "Sketch",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "16/03/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-vuejs-v2437",
+        "title": "Vue.js",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "11/03/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-ui-adobe-xd-v4948",
+        "title": "Adobe XD",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "09/03/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-programacao-v66696",
+        "title": "Iniciante em Programação",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "04/03/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-figma-v33203",
+        "title": "Figma",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "01/03/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-react-js-v58481",
+        "title": "React JS",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "25/02/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-front-end-v33082",
+        "title": "Front End",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "28/01/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-expert-em-orientacao-a-objetos",
+        "title": "Expert em Orientação a Objetos",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "27/01/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-arquitetura-design-projetos-java-v87049",
+        "title": "Arquitetura e Design de Projetos Java",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "27/01/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-digital-e-agile-thinking-v14208",
+        "title": "Digital & Agile Thinking",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "21/01/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-marketing-digital-v2267",
+        "title": "Marketing Digital",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "25/05/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-angular-v2398",
+        "title": "Angular",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "11/05/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-curriculos",
+        "title": "Currículos",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "30/04/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-gerente-agil-v840",
+        "title": "Gerente Ágil - Metodologia Agile | Alura",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "29/04/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-design-de-jogos-v56523",
+        "title": "Design de Jogos",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "27/04/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-xamarin",
+        "title": "Multiplataforma mobile Xamarin",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "22/04/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-arquitetura-design-projetos-java-v113619",
+        "title": "Arquitetura e Design de Projetos Java",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "15/04/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-java-v76916",
+        "title": "Java e Orientação a Objetos",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "13/04/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-spring-framework-v80363",
+        "title": "Spring Framework",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "01/04/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-ruby-on-rails",
+        "title": "Ruby On Rails",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "30/03/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-marketing-digital-v156722",
+        "title": "Marketing Digital",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "13/07/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-estatistica-para-ux-research-v86914",
+        "title": "Estatística para UX Research",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "06/07/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-e-commerce-v2384",
+        "title": "E-commerce",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "01/07/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-empreendedorismo-digital-v2380",
+        "title": "Empreendedorismo Digital",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "29/06/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-desenvolvimento-pessoal-v2349",
+        "title": "Desenvolvimento Pessoal",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "15/06/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-seo-v2366",
+        "title": "SEO",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "10/06/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-java-ee",
+        "title": "Java EE",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "10/06/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-django-v38524",
+        "title": "Django",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "08/06/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-Python-linguagem-v10206",
+        "title": "Python",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "02/06/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-social-media-v2456",
+        "title": "Social Media",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "01/06/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-marketing-digital-v187007",
+        "title": "Marketing Digital",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "04/11/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-producao-indesign-v5201",
+        "title": "InDesign",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "13/10/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-django-v162573",
+        "title": "Django",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "22/09/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-seo-v187009",
+        "title": "SEO",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "16/09/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-social-media-v156718",
+        "title": "Social Media",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "14/09/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-vendas-de-alta-performance-v15415",
+        "title": "Vendas de Alta Performance",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "08/09/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-e-commerce-v179606",
+        "title": "E-commerce",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "11/08/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-vuejs-v128975",
+        "title": "Vue.js",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "10/08/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-rh-4-0-digital-agile-transforming-business-partner-v86000",
+        "title": "RH 4.0: Digital Agile & Transforming Business Partner",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "21/07/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-seo-v159417",
+        "title": "SEO",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "15/07/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-comunicacao-v46270",
+        "title": "Comunicação",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "07/02/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-produtividade-v55073",
+        "title": "Produtividade",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "07/02/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-habilidades-comportamento-v260869",
+        "title": "Habilidades e comportamento",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "07/02/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-e-commerce-v201923",
+        "title": "E-commerce",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "07/02/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-rh-4-0-digital-agile-transforming-business-partner-v191090",
+        "title": "RH 4.0: Digital Agile & Transforming Business Partner",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "28/01/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-data-analysis-google-sheets-v176086",
+        "title": "Data Analysis com Google Sheets",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "24/01/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-ios-v84815",
+        "title": "iOS",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "06/01/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-desenvolvimento-pessoal",
+        "title": "Desenvolvimento Pessoal",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "02/12/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-html-e-css-v10213",
+        "title": "HTML e CSS",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "11/11/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-power-bi-v43221",
+        "title": "Power BI",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "09/11/2021"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-comunicacao-v295599",
+        "title": "Comunicação",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "12/04/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-ios-v277582",
+        "title": "iOS",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "28/03/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-marketing-digital-v244489",
+        "title": "Marketing Digital",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "25/03/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-vuejs-v188677",
+        "title": "Vue.js",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "22/03/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-desenvolvedor-php-v2242",
+        "title": "PHP",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "15/03/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-react-js",
+        "title": "React JS",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "11/03/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-integracao-aplicacoes-java",
+        "title": "Integração de Aplicações Java",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "10/03/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-certificacao-csharp",
+        "title": "Certificação C# Programming",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "21/02/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-matematica-programacao-data-science",
+        "title": "Matemática para Programação e Data Science",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "17/02/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-seo-v216746",
+        "title": "SEO",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "14/02/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-next-js-v285472",
+        "title": "Next.js",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "04/05/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-vuejs",
+        "title": "Vue.js 2",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "03/05/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-social-media-v216931",
+        "title": "Social Media",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "27/04/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-e-commerce-v346809",
+        "title": "E-commerce",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "22/04/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-minha-carreira-v131189",
+        "title": "Minha carreira",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "22/04/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-certificacao-pmi-acp-v316574",
+        "title": "Preparatório para Certificação PMI-ACP",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "20/04/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-android-kotlin-v315384",
+        "title": "Android com Kotlin",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "20/04/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-e-commerce-v295592",
+        "title": "E-commerce",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "18/04/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-digital-e-agile-thinking-v101854",
+        "title": "Digital & Agile Thinking",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "18/04/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-empreendedorismo-digital-v178658",
+        "title": "Empreendedorismo Digital",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "12/04/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-data-science-v52898",
+        "title": "Data Science",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "03/06/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-gestao-rh-tech-v305488",
+        "title": "Gestão de RH Tech",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "30/05/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-trafego-pago-v333158",
+        "title": "Tráfego Pago",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "26/05/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-gerente-agil-v150159",
+        "title": "Gerente Ágil - Metodologia Agile | Alura",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "25/05/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-aprendizagem-v173444",
+        "title": "Aprendizagem",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "24/05/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-preparatoria-cpa-10-20-anbima",
+        "title": "Preparatória CPA 10-20 ANBIMA",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "24/05/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-machine-learning-negocios-digitais-v100122",
+        "title": "Machine Learning para Negócios Digitais",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "19/05/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-times-alta-performance-v337225",
+        "title": "Times de alta performance",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "18/05/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-react-ts-v310598",
+        "title": "React com TypeScript",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "17/05/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-vendas-de-alta-performance-v216326",
+        "title": "Vendas de Alta Performance",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "04/05/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-rh-4-0-digital-agile-transforming-business-partner-v287468",
+        "title": "RH 4.0: Digital Agile & Transforming Business Partner",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "26/07/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-digital-e-agile-thinking-v346748",
+        "title": "Digital & Agile Thinking",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "26/07/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-vendas-de-alta-performance-v395757",
+        "title": "Vendas de Alta Performance",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "30/06/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-vendas-de-alta-performance-v384139",
+        "title": "Vendas de Alta Performance",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "30/06/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-gestao-aplicacoes-sap-v232691",
+        "title": "Gestão e Aplicações SAP",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "20/06/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-gestao-rh-tech-v374405",
+        "title": "Gestão de RH Tech",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "20/06/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-modelagem-dados-v62403",
+        "title": "Modelagem de dados",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "17/06/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-marketing-digital-v322256",
+        "title": "Marketing Digital",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "14/06/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-vendas-de-alta-performance-v357953",
+        "title": "Vendas de Alta Performance",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "13/06/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos-v95990",
+        "title": "C# e orientação a objetos",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "13/06/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-trafego-pago-v370488",
+        "title": "Tráfego Pago",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "10/10/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-oracle-database-sql-plsql-v8733",
+        "title": "SQL  com Oracle Database",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "28/09/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-seguranca-ofensiva-v445244",
+        "title": "Segurança Ofensiva",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "14/09/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-marketing-relacionamento-v411803",
+        "title": "Marketing de Relacionamento",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "14/09/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-seguranca-ofensiva-v422018",
+        "title": "Segurança Ofensiva",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "14/09/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-amazon-web-services-v2449",
+        "title": "Amazon Web Services",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "09/09/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-react-native-v324364",
+        "title": "React Native",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "10/08/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-unreal-engine",
+        "title": "Unreal Engine",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "04/08/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-seo-v301136",
+        "title": "SEO",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "28/07/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-marketing-relacionamento-v381176",
+        "title": "Marketing de Relacionamento",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "26/07/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-excel-vba-v51635",
+        "title": "Excel VBA",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "10/11/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-aprendizagem-v370782",
+        "title": "Aprendizagem",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "08/11/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-seo-v413372",
+        "title": "SEO",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "04/11/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-machine-learning-avancada-v100109",
+        "title": "Machine Learning Avançada",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "04/11/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-machine-learning-v64177",
+        "title": "Machine Learning",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "01/11/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-redes-v314",
+        "title": "Administração de Redes",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "31/10/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-seguranca-de-aplicacoes",
+        "title": "Segurança de aplicações",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "26/10/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-devops-v68262",
+        "title": "DevOps",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "19/10/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-ui-sketch-v124695",
+        "title": "Sketch",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "17/10/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-figma-v124693",
+        "title": "Figma",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "13/10/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-front-end",
+        "title": "Front-end",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "15/12/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-node-js-express-v93110",
+        "title": "Node.js com Express",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "13/12/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-iniciando-engenharia-dados-v473363",
+        "title": "Iniciando com Engenharia de Dados",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "06/12/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-ux-v109414",
+        "title": "UX Design",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "05/12/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-dotnet-v95996",
+        "title": "ASP.NET Core REST APIs",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "01/12/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-editores-texto-programacao",
+        "title": "Editores de texto e IDEs para programação",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "25/11/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-iniciando-engenharia-dados-v232394",
+        "title": "Iniciando com Engenharia de Dados",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "21/11/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-spring-framework",
+        "title": "Spring Framework",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "18/11/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-blender-v105893",
+        "title": "Blender",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "18/11/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-react-ts-v361293",
+        "title": "React com TypeScript",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "17/11/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-vendas-de-alta-performance-v395904",
+        "title": "Vendas de Alta Performance",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "10/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-certificacao-pmi-acp-v348876",
+        "title": "Preparatório para Certificação PMI-ACP",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "10/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-empreendedorismo-digital-v343414",
+        "title": "Empreendedorismo Digital",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "10/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-digital-e-agile-thinking-v412201",
+        "title": "Digital & Agile Thinking",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "10/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-startupismo-v453707",
+        "title": "Startupismo",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "10/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-criatividade-v183110",
+        "title": "Criatividade",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "10/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-avancando-php",
+        "title": "Avançando em PHP",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "04/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-seo-v474902",
+        "title": "SEO",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "02/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-microsoft-sql-server-2017-v2407",
+        "title": "SQL com Microsoft SQL Server 2017",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "29/12/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-conformidade-legal-v360208",
+        "title": "Conformidade legal",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "26/12/2022"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos-v349825",
+        "title": "C# e Orientação a Objetos",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "19/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-programacao-v123948",
+        "title": "Iniciante em Programação",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "17/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-html-e-css-v232036",
+        "title": "HTML e CSS",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "16/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals-v156527",
+        "title": "Certificação AZ-900: Microsoft Azure Fundamentals",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "12/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-django-v224766",
+        "title": "Django",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "11/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-gestao-produtos-v335521",
+        "title": "Gestão de Produtos",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "10/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-lean-governanca-agilidade-escalada-v305500",
+        "title": "Lean, Governança e Agilidade Escalada",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "10/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-gestao-qualidade-v203893",
+        "title": "Gestão da qualidade",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "10/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-pensamento-estrategico-v200193",
+        "title": "Pensamento estratégico",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "10/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-comunicacao-lideres-v195779",
+        "title": "Comunicação para líderes",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "10/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-angular-v151992",
+        "title": "Angular",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "15/02/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-certificacao-cobit-5",
+        "title": "Certificação COBIT 5",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "14/02/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-html-css-v534235",
+        "title": "Pratique HTML e CSS em projetos Web",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "10/02/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-html-e-css-v516853",
+        "title": "Pratique HTML e CSS em projetos Web",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "10/02/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-programacao-v516862",
+        "title": "Iniciante em Programação",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "07/02/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-/seu-primeiro-projeto-html-e-css",
+        "title": "A partir do Zero: HTML e CSS para projetos web",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "01/02/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-docker-dca",
+        "title": "Certificação Docker DCA",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "26/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-python-data-science-v31955",
+        "title": "Python para Data Science",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "24/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-ux-research-qualitativo",
+        "title": "Pesquisas qualitativas para UX Research",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "19/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-ux-research",
+        "title": "UX Research",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "19/01/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-osteologia",
+        "title": "Osteologia ZBrush",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "05/04/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-java-v142134",
+        "title": "Aprenda a programar em Java com Orientação a Objetos",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "03/04/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-banco-dados-java-v475778",
+        "title": "Integre aplicações Java com Banco de dados",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "28/03/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-grafica-illustrator-v4818",
+        "title": "Produção Gráfica com Illustrator",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "10/03/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-certificacao-itil-foundation",
+        "title": "Certificação da biblioteca de infraestrutura de tecnologia da informação - Fundamentos v3",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "24/02/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-producao-indesign-v231062",
+        "title": "InDesign",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "22/02/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-modelagem-dados-v364961",
+        "title": "Modelagem de dados",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "17/02/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-producao-com-photoshop-v58728",
+        "title": "Produção com Photoshop",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "17/02/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-cobit-v527903",
+        "title": "COBIT 2019",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "15/02/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-android",
+        "title": "Android",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "15/02/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-tecnicas-vendas-v395908",
+        "title": "Técnicas de Vendas",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "24/05/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos-v519337",
+        "title": "Aprenda a programar em C# com Orientação a Objetos",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "23/05/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-power-bi-v228783",
+        "title": "Power BI",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "04/05/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-ux-v494265",
+        "title": "UX Design",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "28/04/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-e-commerce-v349855",
+        "title": "E-commerce",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "27/04/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-apps-ios-swift-ui-kit-swift-ui",
+        "title": "Desenvolva apps iOS com Swift, UI Kit e Swift UI",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "26/04/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-react-ts-v478027",
+        "title": "Gerencie aplicações React com Typescript",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "25/04/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-marketing-digital-v384913",
+        "title": "Marketing Digital",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "24/04/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-fotografia-v57497",
+        "title": "Fotografia",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "17/04/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-producao-premiere-v5208",
+        "title": "Produção de vídeo no Premiere",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "14/04/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-social-media-v345422",
+        "title": "Social Media",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "16/06/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-apache-spark-python-v440821",
+        "title": "Apache Spark com Python",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "14/06/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-marketing-analytics-copia",
+        "title": "Marketing Analytics",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "14/06/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-containers-aws",
+        "title": "Containers com AWS ECS e EKS",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "29/05/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-observabilidade-aws",
+        "title": "Observabilidade com AWS CloudWatch e X-Ray",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "29/05/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-personal-branding-v200205",
+        "title": "Personal Branding",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "29/05/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-python-data-science",
+        "title": "Python para Data Science",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "26/05/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-linguagem-php-v309941",
+        "title": "Aprenda a programar em PHP",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "25/05/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-Python-linguagem-v162571",
+        "title": "Aprenda a programar em Python com Orientação a Objetos",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "25/05/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-ios",
+        "title": "Desenvolva seu primeiro app em iOS",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "24/05/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-marketing-conteudo-v619734",
+        "title": "Marketing de Conteúdo",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "11/07/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-social-media-v353072",
+        "title": "Social Media",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "11/07/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-marketing-conteudo-v456004",
+        "title": "Marketing de Conteúdo",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "06/07/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-gestao-qualidade",
+        "title": "Gestão da qualidade",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "05/07/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse-pentaho",
+        "title": "BI e Data Warehouse com Pentaho",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "27/06/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-e-commerce",
+        "title": "E-commerce",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "23/06/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-ferramentas-indicadores-e-commerce",
+        "title": "Ferramentas e Indicadores do E-commerce",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "23/06/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-gestao-produtos-v513548",
+        "title": "Gestão de Produtos",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "16/06/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-digital-e-agile-thinking-v513524",
+        "title": "Digital & Agile Thinking",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "16/06/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-gerente-agil-v370822",
+        "title": "Gerente Ágil",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "16/06/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-produtividade-v295597",
+        "title": "Produtividade",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "01/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-business-agility-v1486",
+        "title": "Business Agility",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "01/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-google-ads-v355638",
+        "title": "Google Ads",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "01/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-wordpress-v54133",
+        "title": "WordPress: crie sites do zero",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "27/07/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-redes-v466170",
+        "title": "Redes de computadores",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "21/07/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-marketing-digital-v581027",
+        "title": "Marketing Digital",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "18/07/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-marketing-analytics-v566699",
+        "title": "Marketing Analytics",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "17/07/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-lean-governanca-agilidade-escalada-v513546",
+        "title": "Lean, Governança e Agilidade Escalada",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "17/07/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-php-web-v507000",
+        "title": "PHP Web: crie aplicações web em PHP",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "17/07/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-power-bi-v559634",
+        "title": "Power BI",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "12/07/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-kotlin-v68329",
+        "title": "Linguagem Kotlin",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "15/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-comunicacao-v343359",
+        "title": "Comunicação",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "14/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-lean-governanca-agilidade-escalada-v624736",
+        "title": "Lean, Governança e Agilidade Escalada",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "09/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-digital-e-agile-thinking-v608806",
+        "title": "Digital & Agile Thinking",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "09/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-business-agility-v633379",
+        "title": "Business Agility",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "09/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-rh-4-0-digital-agile-transforming-business-partner-v412207",
+        "title": "RH 4.0: Digital Agile & Transforming Business Partner",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "09/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-iniciando-engenharia-dados",
+        "title": "Iniciando com Engenharia de Dados",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "08/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-gerente-agil-v608801",
+        "title": "Gerente Ágil",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "08/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-power-bi-v622625",
+        "title": "Power BI",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "03/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-excel-v469744",
+        "title": "Excel",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "01/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-flutter-v394865",
+        "title": "Desenvolva seu primeiro app com Flutter",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "06/09/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-react-javascript-v450960",
+        "title": "Explore React com JavaScript",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "29/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-modelagem-dados-v539767",
+        "title": "Modelagem de dados",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "28/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-certificacao-lpi-linux-essentials-v2713",
+        "title": "Certificação LPI Linux Essentials",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "25/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-design-grafico-v58717",
+        "title": "Design Gráfico",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "23/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-ui-adobe-xd-v124697",
+        "title": "Adobe XD",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "23/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-motion-design-v237",
+        "title": "Motion Design",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "23/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-javascript-front-end-v374365",
+        "title": "Desenvolva aplicações Web com JavaScript",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "23/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse-v2910",
+        "title": "BI e Data Warehouse com SQL Server e Power BI",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "18/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-estatistica-para-ux-research-v181659",
+        "title": "UX Research: Análise e visualização de dados",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "17/08/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-acessibilidade-web-v2346",
+        "title": "Desenvolva aplicações Web Acessíveis",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "28/09/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-governanca-corporativa-v226824",
+        "title": "Governança Corporativa",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "27/09/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-javascript-front-end-v645755",
+        "title": "Desenvolva aplicações Web com JavaScript",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "27/09/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-arquitetura-design-projetos-java-v142135",
+        "title": "Aprofunde em Java com arquitetura e padrões de projeto",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "27/09/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-praticas-gestao-waterfall-hibridas",
+        "title": "Práticas de Gestão - Waterfall & Híbridas",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "26/09/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-boas-praticas-c-sharp-v298233",
+        "title": "Boas práticas em C#",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "22/09/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-motion-design-v642727",
+        "title": "Motion Design",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "20/09/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-java-web",
+        "title": "Java Web: crie aplicações com Servlets e MVC",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "14/09/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-figma-v459428",
+        "title": "Figma",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "13/09/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-react-native-v419498",
+        "title": "Desenvolva seu primeiro app com React Native",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "06/09/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-times-alta-performance-v366740",
+        "title": "Times de alta performance",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "02/10/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-gestao-agil-projetos-v633016",
+        "title": "Gestão Ágil de Projetos",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "02/10/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-minha-primeira-lideranca-v99659",
+        "title": "Minha primeira liderança",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "02/10/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-empreendedorismo-devs-v637554",
+        "title": "Empreendedorismo para Devs",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "02/10/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-comunicacao-v640398",
+        "title": "Comunicação",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "02/10/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-seo-v508085",
+        "title": "SEO",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "02/10/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-cobit-v538195",
+        "title": "COBIT 2019",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "29/09/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-minha-carreira-v349835",
+        "title": "Minha carreira",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "29/09/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-personal-branding",
+        "title": "Personal Branding",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "29/09/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-programacao-v531534",
+        "title": "A partir do zero: iniciante em programação",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "28/09/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-vb-net",
+        "title": "VB.NET",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "14/11/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-raspberry-pi",
+        "title": "Raspberry Pi e Internet das Coisas",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "14/11/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-internet-das-coisas-iot",
+        "title": "Internet das Coisas",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "14/11/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-vuejs3-v305797",
+        "title": "Ouse com o Framework Vue.js 3",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "09/11/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-google-looker-studio-v505869",
+        "title": "Google Looker Studio",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "26/10/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-html-css-v527396",
+        "title": "A partir do zero: HTML e CSS para projetos web",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "20/10/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-javascript-front-end-v663575",
+        "title": "Desenvolva aplicações Web com JavaScript",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "17/10/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-css-estilos-v445565",
+        "title": "CSS: aprofunde em estilos",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "16/10/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-trafego-pago-v460986",
+        "title": "Tráfego Pago",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "13/10/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-minha-carreira-v664802",
+        "title": "Minha carreira",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "02/10/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-cobit-v663685",
+        "title": "COBIT 2019",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "11/12/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-modelagem-melhorias-processos-negocios-v664896",
+        "title": "Modelagem e melhorias de processos de negócios",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "07/12/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-css-estilos-v671897",
+        "title": "CSS: aprofunde em estilos",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "28/11/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-design-grafico-v645897",
+        "title": "Design Gráfico",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "24/11/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-javascript-front-end-v672611",
+        "title": "Desenvolva aplicações Web com JavaScript",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "21/11/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-modelagem-melhorias-processos-negocios-v313562",
+        "title": "Modelagem e Melhorias de Processos de Negócios",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "17/11/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-google-bigquery-datastudio",
+        "title": "Google BigQuery e DataStudio",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "17/11/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-seo-v665958",
+        "title": "SEO",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "17/11/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-inovacao-para-lideres-v161529",
+        "title": "Inovação para Líderes",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "16/11/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-minha-primeira-lideranca-v665964",
+        "title": "Minha primeira liderança",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "16/11/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-arquitetura-android-v5753",
+        "title": "Melhore a arquitetura de apps em Android",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "19/01/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-react-native-v700137",
+        "title": "Desenvolva seu primeiro app com React Native",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "15/01/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-openai-python-crie-ferramentas-chatbots-inteligentes-apis-openai-v661096",
+        "title": "OpenAI e Python: crie ferramentas poderosas e chatbots inteligentes com as APIs da OpenAI",
+        "categoryName": "Inteligência Artificial",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inteligencia-artificial.svg",
+        "formattedDate": "15/01/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-angular-14-v464260",
+        "title": "Explore o Framework Angular",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "29/12/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-design-de-jogos",
+        "title": "Design de Jogos",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "22/12/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-react-javascript-v648834",
+        "title": "Explore React com JavaScript",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "20/12/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-react-native-v653024",
+        "title": "Desenvolva seu primeiro app com React Native",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "20/12/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-linguagem-python-v597955",
+        "title": "Aprenda a programar em Python com Orientação a Objetos",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "15/12/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-modelagem-dados-v644762",
+        "title": "Modelagem de dados",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "15/12/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-typescript-v309729",
+        "title": "Melhore sua experiência de desenvolvimento com TypeScript",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "13/12/2023"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-business-agility-v638034",
+        "title": "Business Agility",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "21/02/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-marketing-digital-v625486",
+        "title": "Marketing Digital",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "21/02/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-conformidade-legal-v505230",
+        "title": "Conformidade Legal",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "21/02/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-social-media-v622021",
+        "title": "Social Media",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "21/02/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-react-native-v711213",
+        "title": "Desenvolva seu primeiro app com React Native",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "20/02/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-angular-14-v702943",
+        "title": "Explore o Framework Angular",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "06/02/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-domine-linguagem-swift-v573136",
+        "title": "Domine a linguagem Swift",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "02/02/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-js-backend-v210587",
+        "title": "Aprenda a programar em JavaScript com foco no back-end",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "29/01/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-primeiros-passos-devops-v277882",
+        "title": "Começando em DevOps",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "26/01/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-design-system-v275700",
+        "title": "Design System",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "24/01/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-react-ts-v581770",
+        "title": "Gerencie aplicações React com Typescript",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "05/03/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-domine-linguagem-swift-v721829",
+        "title": "Domine a linguagem Swift",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "04/03/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-empreendedorismo-digital-v513530",
+        "title": "Empreendedorismo Digital",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "04/03/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-testes-em-dotnet-v302184",
+        "title": "Testes em .NET",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "04/03/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-conformidade-legal-v730553",
+        "title": "Conformidade Legal",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "28/02/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-cobit",
+        "title": "COBIT 2019",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "28/02/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-ux-research-pesquisa-produtos-digitais-v517826",
+        "title": "UX Research - Pesquisa para produtos digitais",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "28/02/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-governanca-ti-v617409",
+        "title": "Governança de TI",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "28/02/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-nest-js-v474195",
+        "title": "Nest.js: aplicações Node.js eficientes e escaláveis do lado do servidor",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "22/02/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-gestao-produtos-v608807",
+        "title": "Gestão de Produtos",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "21/02/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-testes-em-dotnet-v736489",
+        "title": "Testes em .NET",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "01/04/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-certificacao-pmp-capm-pmi-v2577",
+        "title": "Certificação PMP e CAPM do PMI",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "28/03/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-marketing-digital-v730564",
+        "title": "Marketing Digital",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "26/03/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-canva-v424646",
+        "title": "Canva",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "22/03/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-data-science-v377549",
+        "title": "Data Science",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "11/03/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-vba-v469762",
+        "title": "VBA",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "08/03/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-desenvolvimento-carreira-ux-v212917",
+        "title": "Desenvolvimento de Carreira em UX",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "08/03/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-pensamento-estrategico-v513540",
+        "title": "Pensamento estratégico",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "06/03/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-social-media-v730407",
+        "title": "Social Media",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "06/03/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-social-media-copia",
+        "title": "Social Media",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "06/03/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-testes-em-dotnet-v749160",
+        "title": "Testes em .NET",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "14/06/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-machine-learning-v470151",
+        "title": "Machine Learning",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "29/05/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-data-science-v739233",
+        "title": "Data Science",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "22/05/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-comunicacao-v665961",
+        "title": "Comunicação",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "03/05/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-oracle-mysql-v3983",
+        "title": "SQL com MySQL Server da Oracle",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "29/04/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-linguagem-php-v597958",
+        "title": "Aprenda a programar em PHP",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "22/04/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-react-native-aplicacoes-redux",
+        "title": "React Native: gerenciando estados da aplicação com Redux",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "17/04/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-firebase-react-native",
+        "title": "Utilize os serviços do Firebase com React Native",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "17/04/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-react-native",
+        "title": "Desenvolva seu primeiro app com React Native",
+        "categoryName": "Mobile",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/mobile.svg",
+        "formattedDate": "17/04/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-inovacao-para-lideres-v685399",
+        "title": "Inovação para Líderes",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "16/04/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-cloud-computing-copia",
+        "title": "Começando em Cloud Computing",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "05/08/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-desenho-humano-photoshop-v58776",
+        "title": "Desenho básico",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "05/08/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-tratamento-de-imagem-v56410",
+        "title": "Tratamento de Imagem",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "05/08/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-props-para-games-v33174",
+        "title": "Props para games",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "05/08/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-blender-v117429",
+        "title": "Blender",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "05/08/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-editor-video-v58771",
+        "title": "Edição de vídeo",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "31/07/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-django-rest-v162494",
+        "title": "Django REST APIs: crie aplicações REST em Python",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "17/07/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-adobe-mobile-v324332",
+        "title": "Adobe Mobile",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "17/07/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-autolideranca-v165886",
+        "title": "Autoliderança",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "15/07/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-jogos-unity",
+        "title": "Desenvolvimento de Jogos com Unity",
+        "categoryName": "Programação",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+        "formattedDate": "19/06/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-react-ts-v737354",
+        "title": "Gerencie aplicações React com Typescript",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "26/08/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-javascript-front-end-v687029",
+        "title": "Desenvolva aplicações Web com JavaScript",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "21/08/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-aws-servicos-gerenciamento-operacao-v754482",
+        "title": "Aprofunde em AWS com serviços de gerenciamento e operação",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "19/08/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-editor-video-v806088",
+        "title": "Edição de vídeo",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "16/08/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-grafica-illustrator-v551706",
+        "title": "Ferramentas essenciais e design gráfico com o Illustrator",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "13/08/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-trafego-pago-v671366",
+        "title": "Tráfego Pago",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "13/08/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-google-ads-v633372",
+        "title": "Google Ads",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "13/08/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-power-bi-v631058",
+        "title": "Power BI",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "09/08/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-modelagem-dados-v697622",
+        "title": "Modelagem de dados",
+        "categoryName": "Data Science",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/data-science.svg",
+        "formattedDate": "08/08/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-cloud-computing-v282312",
+        "title": "Começando em Cloud Computing",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "05/08/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-comecando-linux-v453710",
+        "title": "Começando com Linux",
+        "categoryName": "DevOps",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/devops.svg",
+        "formattedDate": "17/09/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-lean-governanca-agilidade-escalada-v638046",
+        "title": "Lean, Governança e Agilidade Escalada",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "17/09/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-wordpress-v628953",
+        "title": "WordPress: crie sites do zero",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "12/09/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-ui-adobe-xd",
+        "title": "Adobe XD",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "10/09/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-ui-sketch",
+        "title": "Sketch",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "10/09/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-criatividade-v513519",
+        "title": "Criatividade",
+        "categoryName": "Inovação & Gestão",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/inovacao-gestao.svg",
+        "formattedDate": "09/09/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-acessibilidade-web",
+        "title": "Desenvolva aplicações Web Acessíveis",
+        "categoryName": "Front-end",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+        "formattedDate": "30/08/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-desenho-humano-photoshop",
+        "title": "Desenho básico",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "29/08/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-desenho-digital",
+        "title": "Desenho Digital",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "29/08/2024"
+    },
+    {
+        "link": "https://cursos.alura.com.br/formacao-hq-narrativa-sequencial",
+        "title": "HQ - Narrativa Sequencial",
+        "categoryName": "UX & Design",
+        "kindDisplayName": "Formação",
+        "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/design-ux.svg",
+        "formattedDate": "29/08/2024"
+    }
+]
