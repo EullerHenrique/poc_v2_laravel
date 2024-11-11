@@ -8,30 +8,17 @@
 - Composer 2.8.2
 - Docker
 
-## Configuração [Novo Projeto]
+## Execução
 
-1. Rode os comandos:
-   1. docker-compose up -d
-      1. docker exec -it composer-2.8.2 bash
-          1. composer config -g repo.packagist composer https://packagist.org
-          2. composer config -g github-protocols https ssh
-          3. composer create-project --prefer-dist laravel/laravel:11.0 src
-   
-## Execução [Projeto já existente]
-
-1. Rode os comandos:
-   1. docker-compose up -d
-       1. docker exec -it composer-2.8.2 bash
-           1. composer config -g repo.packagist composer https://packagist.org
-           2. composer config -g github-protocols https ssh
-           3. cd src 
-           4. composer install
-
+1. Rode o comando:
+    - docker-compose up -d
+    
 ### Ambiente de Desenvolvimento
 
 1. Rode o comando:
     1. docker exec -it php-8.3 bash
         1. php artisan serve --host 0.0.0.0
+       
 2. Acesse o host:
     1. localhost:8000
    
