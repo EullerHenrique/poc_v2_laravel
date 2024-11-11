@@ -25,4 +25,11 @@
 ### Ambiente de Produção
 
 1. Acesse o host:
-    1. localhost:81/public
+    1. localhost:8001
+
+php artisan make:controller FormacaoController
+php artisan make:model Formacao
+php artisas make:request SalvarFormacaoRequest
+php artisan make:provider FormacaoRepositoryProvider
+
+
