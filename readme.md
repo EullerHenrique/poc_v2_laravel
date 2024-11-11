@@ -27,6 +27,9 @@
 1. Acesse o host:
     1. localhost:8001
 
+composer create-project --prefer-dist laravel/laravel:11.0 src
+php artisan make:migration create_formacao_table
+php artisan migrate
 php artisan make:controller FormacaoController
 php artisan make:model Formacao
 php artisas make:request SalvarFormacaoRequest

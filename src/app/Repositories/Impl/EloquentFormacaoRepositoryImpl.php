@@ -17,6 +17,7 @@ class EloquentFormacaoRepositoryImpl implements FormacaoRepository
         $formacao->kindDisplayName = $request->kindDisplayName;
         $formacao->icon = $request->icon;
         $formacao->formattedDate = $request->formattedDate;
+        $formacao->save();
         return $formacao;
     }
 }
