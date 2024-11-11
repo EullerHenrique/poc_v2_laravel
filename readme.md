@@ -21,10 +21,10 @@
 
 1. Rode os comandos:
    1. docker-compose up -d
-       1. docker exec -it composer-2 bash
-           1. cd src
-           2. composer config -g repo.packagist composer https://packagist.org
-           3. composer config -g github-protocols https ssh
+       1. docker exec -it composer-2.8.2 bash
+           1. composer config -g repo.packagist composer https://packagist.org
+           2. composer config -g github-protocols https ssh
+           3. cd src 
            4. composer install
 
 ### Ambiente de Desenvolvimento

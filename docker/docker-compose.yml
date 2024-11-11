@@ -8,29 +8,22 @@ services:
     command: >
       sh -c "
         apt-get update
-        apt-get install -y libcurl4-openssl-dev
+        apt-get install -y libcurl4-openssl-dev libzip-dev unzip 
         a2enmod headers
         a2enmod rewrite
-        docker-php-ext-install curl mysqli pdo pdo_mysql
+        docker-php-ext-install zip curl mysqli pdo pdo_mysql
         docker-php-ext-enable pdo_mysql
         cp /usr/local/etc/php/php.ini-production /usr/local/etc/php/php.ini
         sed -i 's/memory_limit = .*/memory_limit = -1/' /usr/local/etc/php/php.ini
         sed -i '1i\ServerName localhost:81' /etc/apache2/apache2.conf
+        curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+        composer config -g repo.packagist composer https://packagist.org
+        composer config -g github-protocols https ssh
         chown -R www-data:www-data /var/www
         apache2-foreground
       "
     volumes:
       - ../src:/var/www/html
-  composer-2.8.2:
-    image: composer:2.8.2
-    container_name: composer-2.8.2
-    volumes:
-      - ../:/app
-      - ../.composer:/root/.composer
-    command: >
-      sh -c "
-        tail -f /dev/null
-      "
   mysql-9:
     image: mysql:9
     container_name: mysql-9
