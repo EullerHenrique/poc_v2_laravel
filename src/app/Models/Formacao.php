@@ -2,11 +2,14 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
 
 class Formacao extends Model
 {
+    use HasFactory;
+
     protected $table = 'formacao';
     protected $fillable = ['link', 'title', 'categoryName', 'kindDisplayName', 'icon', 'formattedDate'];
 

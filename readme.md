@@ -32,7 +32,7 @@ php artisan make:migration create_formacao_table
 php artisan migrate
 php artisan make:controller FormacaoController
 php artisan make:model Formacao
-php artisas make:request SalvarFormacaoRequest
+php artisan make:request SalvarFormacaoRequest
 php artisan make:provider FormacaoRepositoryProvider
 
 
