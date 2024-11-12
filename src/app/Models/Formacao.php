@@ -11,12 +11,12 @@ class Formacao extends Model
     use HasFactory;
 
     protected $table = 'formacao';
-    protected $fillable = ['link', 'title', 'categoryName', 'kindDisplayName', 'icon', 'formattedDate'];
+    protected $fillable = ['link', 'title', 'categoryName', 'kindDisplayName', 'icon', 'dateAddInAlura'];
 
     protected static function booted(): void
     {
         self::addGlobalScope('ordered', function (Builder $builder) {
-            $builder->orderBy('formattedDate', 'desc');
+            $builder->orderBy('dateAddInAlura', 'desc');
         });
     }
 }

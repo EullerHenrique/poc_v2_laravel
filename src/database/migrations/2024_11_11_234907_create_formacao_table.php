@@ -19,7 +19,6 @@ return new class extends Migration
             $table->string('kindDisplayName');
             $table->string('icon');
             $table->string('formattedDate');
-            $table->timestamps();
         });
     }
 

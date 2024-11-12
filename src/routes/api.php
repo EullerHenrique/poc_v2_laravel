@@ -3,5 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FormacaoController;
 
-Route::get('/formacao/listar', [FormacaoController::class, 'show']);
-Route::post('/formacao/salvar', [FormacaoController::class, 'bulkStore']);
+Route::controller(FormacaoController::class)->group(function () {
+    Route::get('formacao/listar', 'listarFormacoes');
+    Route::post('formacao/salvar', 'salvarFormacoes');
+});

@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Http\Requests\SalvarFormacoesRequest;
 use Illuminate\Http\JsonResponse;
 use App\Repositories\FormacaoRepository;
-use App\Http\Requests\SalvarFormacaoRequest;
 
 class FormacaoController extends Controller
 {
@@ -14,21 +13,15 @@ class FormacaoController extends Controller
 
     }
 
-    public function show(): JsonResponse
+    public function listarFormacoes(): JsonResponse
     {
-        $formacoes = $this->formacaoRepository->all();
+        $formacoes = $this->formacaoRepository->listarFormacoes();
         return response()->json($formacoes);
     }
 
-    public function store(SalvarFormacaoRequest $request): JsonResponse
+    public function salvarFormacoes(SalvarFormacoesRequest $request): JsonResponse
     {
-        $formacao = $this->formacaoRepository->add($request);
-        return response()->json($formacao);
-    }
-
-    public function bulkStore(SalvarFormacoesRequest $request): JsonResponse
-    {
-        $this->formacaoRepository->bulkAdd($request);
+        $this->formacaoRepository->salvarFormacoes($request);
         return response()->json(['message' => 'Formações adicionadas com sucesso']);
     }
 
