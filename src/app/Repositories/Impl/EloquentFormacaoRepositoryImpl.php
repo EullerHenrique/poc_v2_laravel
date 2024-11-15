@@ -9,6 +9,7 @@ use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class EloquentFormacaoRepositoryImpl implements FormacaoRepository
 {
@@ -17,11 +18,28 @@ class EloquentFormacaoRepositoryImpl implements FormacaoRepository
         return Formacao::all();
     }
 
-    public function listarFormacoesPaginadas(Request $request): LengthAwarePaginator
+    public function listarFormacoesPaginadasQueryLaravel(Request $request): LengthAwarePaginator
     {
         $query = Formacao::query();
         $perPage = $request->get('perPage', 15);
         return $query->paginate($perPage);
+    }
+
+    public function listarFormacoesPaginadasQueryNative(Request $request): array
+    {
+        #Ex: 10
+        $page = $request->get('page', 1);
+        #Ex 20
+        $perPage = $request->get('perPage', 15);
+        #Ex: (15 - 1) * 10 = 140
+        $offset = ($page - 1) * $perPage;
+
+        #Ex: Busca os registros de 140 a 160
+        return DB::select(
+            "SELECT * FROM formacao ORDER BY dateRemoved DESC LIMIT :perPage OFFSET :offset", [
+            'perPage' => $perPage,
+            'offset' => $offset,
+        ]);
     }
 
     public function salvarFormacoes(SalvarFormacoesRequest $request): void

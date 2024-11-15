@@ -17,9 +17,14 @@ readonly class FormacaoService
         return $this->formacaoRepository->listarFormacoes();
     }
 
-    public function listarFormacoesPaginadas(Request $request): LengthAwarePaginator
+    public function listarFormacoesPaginadasQueryLaravel(Request $request): LengthAwarePaginator
     {
-        return $this->formacaoRepository->listarFormacoesPaginadas($request);
+        return $this->formacaoRepository->listarFormacoesPaginadasQueryLaravel($request);
+    }
+
+    public function listarFormacoesPaginadasQueryNative(Request $request): array
+    {
+        return $this->formacaoRepository->listarFormacoesPaginadasQueryNative($request);
     }
 
     public function salvarFormacoes(SalvarFormacoesRequest $request): void
