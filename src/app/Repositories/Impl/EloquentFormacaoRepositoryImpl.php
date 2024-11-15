@@ -7,12 +7,20 @@ use App\Models\Formacao;
 use App\Repositories\FormacaoRepository;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Pagination\LengthAwarePaginator;
 
 class EloquentFormacaoRepositoryImpl implements FormacaoRepository
 {
     public function listarFormacoes(): Collection
     {
         return Formacao::all();
+    }
+
+    public function listarFormacoesPaginadas(): LengthAwarePaginator
+    {
+        #Utiliza a paginacao do laravel
+        $query = Formacao::query();
+        return $query->paginate();
     }
 
     public function salvarFormacoes(SalvarFormacoesRequest $request): void
