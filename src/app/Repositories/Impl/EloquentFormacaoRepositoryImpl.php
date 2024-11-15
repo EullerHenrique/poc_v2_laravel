@@ -24,7 +24,7 @@ class EloquentFormacaoRepositoryImpl implements FormacaoRepository
                 'categoryName' => $formacao['categoryName'],
                 'kindDisplayName' => $formacao['kindDisplayName'],
                 'icon' => $formacao['icon'],
-                'dateAddInAlura' => Carbon::createFromFormat('d/m/Y', $formacao['formattedDate']),
+                'dateRemoved' => Carbon::createFromFormat('d/m/Y', $formacao['formattedDate']),
             ]);
         })->toArray();
 
