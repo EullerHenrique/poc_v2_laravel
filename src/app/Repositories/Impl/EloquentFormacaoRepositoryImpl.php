@@ -20,9 +20,10 @@ class EloquentFormacaoRepositoryImpl implements FormacaoRepository
 
     public function listarFormacoesPaginadasQueryLaravel(Request $request): LengthAwarePaginator
     {
-        $query = Formacao::query();
         $perPage = $request->get('perPage', 15);
-        return $query->paginate($perPage);
+        $query = Formacao::query();
+        $result = $query->paginate($perPage);
+        return $result->appends(['perPage' => $perPage]);
     }
 
     public function listarFormacoesPaginadasQueryNative(Request $request): array
