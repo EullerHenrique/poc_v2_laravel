@@ -6,6 +6,7 @@ use App\Http\Requests\SalvarFormacoesRequest;
 use App\Services\FormacaoService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Http\Request;
 
 class FormacaoController extends Controller
 {
@@ -17,9 +18,9 @@ class FormacaoController extends Controller
         return response()->json($formacoes);
     }
 
-    public function listarFormacoesPaginadas(): LengthAwarePaginator
+    public function listarFormacoesPaginadas(Request $request): LengthAwarePaginator
     {
-        return $this->formacaoService->listarFormacoesPaginadas();
+        return $this->formacaoService->listarFormacoesPaginadas($request);
     }
 
     public function salvarFormacoes(SalvarFormacoesRequest $request): JsonResponse

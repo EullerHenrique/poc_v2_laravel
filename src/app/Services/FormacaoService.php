@@ -6,6 +6,7 @@ use App\Http\Requests\SalvarFormacoesRequest;
 use App\Repositories\FormacaoRepository;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Http\Request;
 
 readonly class FormacaoService
 {
@@ -16,9 +17,9 @@ readonly class FormacaoService
         return $this->formacaoRepository->listarFormacoes();
     }
 
-    public function listarFormacoesPaginadas(): LengthAwarePaginator
+    public function listarFormacoesPaginadas(Request $request): LengthAwarePaginator
     {
-        return $this->formacaoRepository->listarFormacoesPaginadas();
+        return $this->formacaoRepository->listarFormacoesPaginadas($request);
     }
 
     public function salvarFormacoes(SalvarFormacoesRequest $request): void

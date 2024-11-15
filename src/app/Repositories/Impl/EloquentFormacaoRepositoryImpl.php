@@ -8,6 +8,7 @@ use App\Repositories\FormacaoRepository;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Http\Request;
 
 class EloquentFormacaoRepositoryImpl implements FormacaoRepository
 {
@@ -16,11 +17,11 @@ class EloquentFormacaoRepositoryImpl implements FormacaoRepository
         return Formacao::all();
     }
 
-    public function listarFormacoesPaginadas(): LengthAwarePaginator
+    public function listarFormacoesPaginadas(Request $request): LengthAwarePaginator
     {
-        #Utiliza a paginacao do laravel
         $query = Formacao::query();
-        return $query->paginate();
+        $perPage = $request->get('perPage', 15);
+        return $query->paginate($perPage);
     }
 
     public function salvarFormacoes(SalvarFormacoesRequest $request): void
