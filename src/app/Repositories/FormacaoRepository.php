@@ -12,9 +12,9 @@ interface FormacaoRepository
 
     public function listarFormacoes(): Collection;
 
-    public function listarFormacoesPaginadasQueryLaravel(Request $request): LengthAwarePaginator;
+    public function listarFormacoesPaginateLaravel(Request $request): LengthAwarePaginator;
 
-    public function listarFormacoesPaginadasQueryNative(Request $request);
+    public function listarFormacoesPaginateNative(Request $request): array;
 
     public function salvarFormacoes(SalvarFormacoesRequest $request): void;
 }

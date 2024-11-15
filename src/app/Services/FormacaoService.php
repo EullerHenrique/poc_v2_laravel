@@ -3,6 +3,7 @@
 namespace App\Services;
 
 use App\Http\Requests\SalvarFormacoesRequest;
+use App\Http\Responses\ListarFormacoesPaginateNativeResponse;
 use App\Repositories\FormacaoRepository;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Pagination\LengthAwarePaginator;
@@ -17,14 +18,16 @@ readonly class FormacaoService
         return $this->formacaoRepository->listarFormacoes();
     }
 
-    public function listarFormacoesPaginadasQueryLaravel(Request $request): LengthAwarePaginator
+    public function listarFormacoesPaginateLaravel(Request $request): LengthAwarePaginator
     {
-        return $this->formacaoRepository->listarFormacoesPaginadasQueryLaravel($request);
+        return $this->formacaoRepository->listarFormacoesPaginateLaravel($request);
     }
 
-    public function listarFormacoesPaginadasQueryNative(Request $request): array
+    public function listarFormacoesPaginateNative(Request $request): array
     {
-        return $this->formacaoRepository->listarFormacoesPaginadasQueryNative($request);
+        $formacoesModel = $this->formacaoRepository->listarFormacoesPaginateNative($request);
+        $page = $request->get('page', 1);
+        return ListarFormacoesPaginateNativeResponse::new()->toArray($page, $formacoesModel);
     }
 
     public function salvarFormacoes(SalvarFormacoesRequest $request): void

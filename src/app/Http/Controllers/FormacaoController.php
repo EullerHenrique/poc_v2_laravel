@@ -18,14 +18,16 @@ class FormacaoController extends Controller
         return response()->json($formacoes);
     }
 
-    public function listarFormacoesPaginadasQueryLaravel(Request $request): LengthAwarePaginator
+    public function listarFormacoesPaginateLaravel(Request $request): JsonResponse
     {
-        return $this->formacaoService->listarFormacoesPaginadasQueryLaravel($request);
+        $formacoes = $this->formacaoService->listarFormacoesPaginateLaravel($request);
+        return response()->json($formacoes);
     }
 
-    public function listarFormacoesPaginadasQueryNative(Request $request): array
+    public function listarFormacoesPaginateNative(Request $request): JsonResponse
     {
-        return $this->formacaoService->listarFormacoesPaginadasQueryNative($request);
+        $formacoes = $this->formacaoService->listarFormacoesPaginateNative($request);
+        return response()->json($formacoes);
     }
 
     public function salvarFormacoes(SalvarFormacoesRequest $request): JsonResponse

@@ -18,7 +18,7 @@ class EloquentFormacaoRepositoryImpl implements FormacaoRepository
         return Formacao::all();
     }
 
-    public function listarFormacoesPaginadasQueryLaravel(Request $request): LengthAwarePaginator
+    public function listarFormacoesPaginateLaravel(Request $request): LengthAwarePaginator
     {
         $perPage = $request->get('perPage', 15);
         $query = Formacao::query();
@@ -26,7 +26,7 @@ class EloquentFormacaoRepositoryImpl implements FormacaoRepository
         return $result->appends(['perPage' => $perPage]);
     }
 
-    public function listarFormacoesPaginadasQueryNative(Request $request): array
+    public function listarFormacoesPaginateNative(Request $request): array
     {
         #Ex: 10
         $page = $request->get('page', 1);
