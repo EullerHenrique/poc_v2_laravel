@@ -20,14 +20,22 @@ readonly class FormacaoService
 
     public function listarFormacoesPaginateLaravel(Request $request): LengthAwarePaginator
     {
-        return $this->formacaoRepository->listarFormacoesPaginateLaravel($request);
+        $formacoesModel = $this->formacaoRepository->listarFormacoesPaginateLaravel($request);
+        foreach ($formacoesModel as $formacao) {
+            $formacao->formattedDate = date('d/m/Y', strtotime($formacao->dateRemoved));
+            unset($formacao->dateRemoved);
+        }
+        return $formacoesModel;
     }
 
     public function listarFormacoesPaginateNative(Request $request): array
     {
         $quantidadeFormacoes = $this->formacaoRepository->obterQuantidadeFormacoes();
         $formacoesModel = $this->formacaoRepository->listarFormacoesPaginateNative($request);
-
+        foreach ($formacoesModel as $formacao) {
+            $formacao->formattedDate = date('d/m/Y', strtotime($formacao->dateRemoved));
+            unset($formacao->dateRemoved);
+        }
         $currentPage = (int) $request->get('page', 1);
         $perPage = $request->get('perPage', 15);
         $lastPage = ceil($quantidadeFormacoes / $perPage);
@@ -43,10 +51,15 @@ readonly class FormacaoService
         $previousPageUrl = $request->fullUrlWithQuery(['page' => $currentPage - 1]);
 
         $links = array();
+        $links[] = [
+            'url' => $firstPageUrl,
+            'label' => 'Primeira Página',
+            'active' => false
+        ];
         if ($currentPage > 1) {
             $links[] = [
                 'url' => $previousPageUrl,
-                'label' => '&laquo; Previous',
+                'label' => '&laquo; Anterior',
                 'active' => false
             ];
         }
@@ -67,10 +80,15 @@ readonly class FormacaoService
         if($currentPage < $lastPage) {
             $links[] = [
                 'url' => $nextPageUrl,
-                'label' => 'Next &raquo;',
+                'label' => 'Próximo &raquo;',
                 'active' => false
             ];
         }
+        $links[] = [
+            'url' => $lastPageUrl,
+            'label' => 'Última Página',
+            'active' => false
+        ];
         $listarFormacoesPaginateNativeResponse = new ListarFormacoesPaginateNativeResponse();
         $listarFormacoesPaginateNativeResponse->setCurrentPage($currentPage);
         $listarFormacoesPaginateNativeResponse->setData($formacoesModel);
