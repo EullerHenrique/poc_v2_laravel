@@ -28,10 +28,10 @@ readonly class FormacaoService
         $quantidadeFormacoes = $this->formacaoRepository->obterQuantidadeFormacoes();
         $formacoesModel = $this->formacaoRepository->listarFormacoesPaginateNative($request);
 
-        $page = $request->get('page', 1);
+        $currentPage = $request->get('page', 1);
         $perPage = $request->get('perPage', 15);
         $lastPage = ceil($quantidadeFormacoes / $perPage);
-        $from = ($page - 1) * $perPage + 1;
+        $from = ($currentPage - 1) * $perPage + 1;
         $to = $from + $perPage;
 
         $pathUrl = $request->url();
@@ -39,8 +39,8 @@ readonly class FormacaoService
         $firstPageUrl = $request->fullUrlWithQuery(['page' => 1]);
         $lastPageUrl = $request->fullUrlWithQuery(['page' => $lastPage]);
 
-        $nextPageUrl = $request->fullUrlWithQuery(['page' => $page + 1]);
-        $previousPageUrl = $request->fullUrlWithQuery(['page' => $page - 1]);
+        $nextPageUrl = $request->fullUrlWithQuery(['page' => $currentPage + 1]);
+        $previousPageUrl = $request->fullUrlWithQuery(['page' => $currentPage - 1]);
 
         $links = array();
         $links[] = [
@@ -54,21 +54,22 @@ readonly class FormacaoService
             'active' => false
         ];
 
-        return ListarFormacoesPaginateNativeResponse::new()->toArray(
-            $page,
-            $formacoesModel,
-            $firstPageUrl,
-            $from,
-            $lastPageUrl,
-            $lastPage,
-            $links,
-            $nextPageUrl,
-            $pathUrl,
-            $perPage,
-            $previousPageUrl,
-            $to,
-            $quantidadeFormacoes
-        );
+        $listarFormacoesPaginateNativeResponse = new ListarFormacoesPaginateNativeResponse();
+        $listarFormacoesPaginateNativeResponse->setCurrentPage($currentPage);
+        $listarFormacoesPaginateNativeResponse->setData($formacoesModel);
+        $listarFormacoesPaginateNativeResponse->setFirstPageUrl($firstPageUrl);
+        $listarFormacoesPaginateNativeResponse->setFrom($from);
+        $listarFormacoesPaginateNativeResponse->setLastPageUrl($lastPageUrl);
+        $listarFormacoesPaginateNativeResponse->setLastPage($lastPage);
+        $listarFormacoesPaginateNativeResponse->setLinks($links);
+        $listarFormacoesPaginateNativeResponse->setNextPageUrl($nextPageUrl);
+        $listarFormacoesPaginateNativeResponse->setPath($pathUrl);
+        $listarFormacoesPaginateNativeResponse->setPerPage($perPage);
+        $listarFormacoesPaginateNativeResponse->setPrevPageUrl($previousPageUrl);
+        $listarFormacoesPaginateNativeResponse->setTo($to);
+        $listarFormacoesPaginateNativeResponse->setTotal($quantidadeFormacoes);
+
+        return $listarFormacoesPaginateNativeResponse->toArray();
     }
 
     public function salvarFormacoes(SalvarFormacoesRequest $request): void
