@@ -25,9 +25,50 @@ readonly class FormacaoService
 
     public function listarFormacoesPaginateNative(Request $request): array
     {
+        $quantidadeFormacoes = $this->formacaoRepository->obterQuantidadeFormacoes();
         $formacoesModel = $this->formacaoRepository->listarFormacoesPaginateNative($request);
+
         $page = $request->get('page', 1);
-        return ListarFormacoesPaginateNativeResponse::new()->toArray($page, $formacoesModel);
+        $perPage = $request->get('perPage', 15);
+        $lastPage = ceil($quantidadeFormacoes / $perPage);
+        $from = ($page - 1) * $perPage + 1;
+        $to = $from + $perPage;
+
+        $pathUrl = $request->url();
+
+        $firstPageUrl = $request->fullUrlWithQuery(['page' => 1]);
+        $lastPageUrl = $request->fullUrlWithQuery(['page' => $lastPage]);
+
+        $nextPageUrl = $request->fullUrlWithQuery(['page' => $page + 1]);
+        $previousPageUrl = $request->fullUrlWithQuery(['page' => $page - 1]);
+
+        $links = array();
+        $links[] = [
+            'url' => $nextPageUrl,
+            'label' => '&laquo; Previous',
+            'active' => false
+        ];
+        $links[] = [
+            'url' => $previousPageUrl,
+            'label' => 'Next &raquo;',
+            'active' => false
+        ];
+
+        return ListarFormacoesPaginateNativeResponse::new()->toArray(
+            $page,
+            $formacoesModel,
+            $firstPageUrl,
+            $from,
+            $lastPageUrl,
+            $lastPage,
+            $links,
+            $nextPageUrl,
+            $pathUrl,
+            $perPage,
+            $previousPageUrl,
+            $to,
+            $quantidadeFormacoes
+        );
     }
 
     public function salvarFormacoes(SalvarFormacoesRequest $request): void

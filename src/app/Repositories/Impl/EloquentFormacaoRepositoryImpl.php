@@ -26,6 +26,11 @@ class EloquentFormacaoRepositoryImpl implements FormacaoRepository
         return $result->appends(['perPage' => $perPage]);
     }
 
+    public function obterQuantidadeFormacoes(): int
+    {
+        return Formacao::count();
+    }
+
     public function listarFormacoesPaginateNative(Request $request): array
     {
         #Ex: 10
