@@ -43,31 +43,34 @@ readonly class FormacaoService
         $previousPageUrl = $request->fullUrlWithQuery(['page' => $currentPage - 1]);
 
         $links = array();
-        $links[] = [
-            'url' => $previousPageUrl,
-            'label' => '&laquo; Previous',
-            'active' => false
-        ];
-        for ($page = $currentPage - 5; $page < $currentPage; $page++) {
+        if ($currentPage > 1) {
+            $links[] = [
+                'url' => $previousPageUrl,
+                'label' => '&laquo; Previous',
+                'active' => false
+            ];
+        }
+        for ($page = max(1, $currentPage - 4); $page < $currentPage; $page++) {
             $links[] = [
                 'url' => $request->fullUrlWithQuery(['page' => $page]),
                 'label' => $page,
                 'active' => $page == $currentPage
             ];
         }
-        for ($page = $currentPage; $page <= $currentPage + 5; $page++) {
+        for ($page = $currentPage; $page <= min($currentPage + 5, $lastPage); $page++) {
             $links[] = [
                 'url' => $request->fullUrlWithQuery(['page' => $page]),
                 'label' => $page,
                 'active' => $page == $currentPage
             ];
         }
-        $links[] = [
-            'url' => $nextPageUrl,
-            'label' => 'Next &raquo;',
-            'active' => false
-        ];
-
+        if($currentPage < $lastPage) {
+            $links[] = [
+                'url' => $nextPageUrl,
+                'label' => 'Next &raquo;',
+                'active' => false
+            ];
+        }
         $listarFormacoesPaginateNativeResponse = new ListarFormacoesPaginateNativeResponse();
         $listarFormacoesPaginateNativeResponse->setCurrentPage($currentPage);
         $listarFormacoesPaginateNativeResponse->setData($formacoesModel);
