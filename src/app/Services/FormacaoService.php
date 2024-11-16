@@ -28,7 +28,7 @@ readonly class FormacaoService
         $quantidadeFormacoes = $this->formacaoRepository->obterQuantidadeFormacoes();
         $formacoesModel = $this->formacaoRepository->listarFormacoesPaginateNative($request);
 
-        $currentPage = $request->get('page', 1);
+        $currentPage = (int) $request->get('page', 1);
         $perPage = $request->get('perPage', 15);
         $lastPage = ceil($quantidadeFormacoes / $perPage);
         $from = ($currentPage - 1) * $perPage + 1;
@@ -44,12 +44,26 @@ readonly class FormacaoService
 
         $links = array();
         $links[] = [
-            'url' => $nextPageUrl,
+            'url' => $previousPageUrl,
             'label' => '&laquo; Previous',
             'active' => false
         ];
+        for ($page = $currentPage - 5; $page < $currentPage; $page++) {
+            $links[] = [
+                'url' => $request->fullUrlWithQuery(['page' => $page]),
+                'label' => $page,
+                'active' => $page == $currentPage
+            ];
+        }
+        for ($page = $currentPage; $page <= $currentPage + 5; $page++) {
+            $links[] = [
+                'url' => $request->fullUrlWithQuery(['page' => $page]),
+                'label' => $page,
+                'active' => $page == $currentPage
+            ];
+        }
         $links[] = [
-            'url' => $previousPageUrl,
+            'url' => $nextPageUrl,
             'label' => 'Next &raquo;',
             'active' => false
         ];
