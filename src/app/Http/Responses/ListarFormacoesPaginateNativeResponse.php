@@ -24,19 +24,8 @@ class ListarFormacoesPaginateNativeResponse
     public function toArray(): array
     {
         return [
-            'current_page' => $this->getCurrentPage(),
             'data' => $this->getData(),
-            'first_page_url' => $this->getFirstPageUrl(),
-            'from' => $this->getFrom(),
-            'last_page_url' => $this->getLastPageUrl(),
-            'last_page' => $this->getLastPage(),
             'links' => $this->getLinks(),
-            'next_page_url' => $this->getNextPageUrl(),
-            'path' => $this->getPath(),
-            'per_page' => $this->getPerPage(),
-            'prev_page_url' => $this->getPrevPageUrl(),
-            'to' => $this->getTo(),
-            'total' => $this->getTotal(),
         ];
     }
 

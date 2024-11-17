@@ -5,12 +5,20 @@ namespace App\Http\Controllers;
 use App\Http\Requests\SalvarFormacoesRequest;
 use App\Services\FormacaoService;
 use Illuminate\Http\JsonResponse;
-use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Http\Request;
+use Illuminate\View\View;
 
 class FormacaoController extends Controller
 {
     public function __construct(private readonly FormacaoService $formacaoService){}
+
+    public function exibirPaginaFormacao(Request $request): View
+    {
+        $formacoes = $this->formacaoService->listarFormacoesPaginateNative($request);;
+        return view('pages.formacao.index')
+                ->with('formacoes', $formacoes['data'])
+                ->with('links', $formacoes['links']);
+    }
 
     public function listarFormacoes(): JsonResponse
     {

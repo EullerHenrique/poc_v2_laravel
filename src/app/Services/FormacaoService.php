@@ -36,32 +36,46 @@ readonly class FormacaoService
             $formacao->formattedDate = date('d/m/Y', strtotime($formacao->dateRemoved));
             unset($formacao->dateRemoved);
         }
+
         $currentPage = (int) $request->get('page', 1);
         $perPage = $request->get('perPage', 15);
         $lastPage = ceil($quantidadeFormacoes / $perPage);
-        $from = ($currentPage - 1) * $perPage + 1;
-        $to = $from + $perPage;
-
-        $pathUrl = $request->url();
 
         $firstPageUrl = $request->fullUrlWithQuery(['page' => 1]);
         $lastPageUrl = $request->fullUrlWithQuery(['page' => $lastPage]);
 
-        $nextPageUrl = $request->fullUrlWithQuery(['page' => $currentPage + 1]);
-        $previousPageUrl = $request->fullUrlWithQuery(['page' => $currentPage - 1]);
+        $previousPageUrl = $request->fullUrlWithQuery(['page' => $currentPage <= 1 ? 1 : $currentPage - 1]);
+        $nextPageUrl = $request->fullUrlWithQuery(['page' => $currentPage < $lastPage ? $currentPage + 1 : $lastPage]);
 
         $links = array();
-        if ($currentPage > 1) {
-            $links[] = [
+        $links[] = [
+            'url' => $firstPageUrl,
+            'label' => 'Primeira Página',
+            'active' => false
+        ];
+        $links[] = [
                 'url' => $previousPageUrl,
-                'label' => '&laquo; Anterior',
+                'label' => 'Anterior',
                 'active' => false
-            ];
+        ];
+
+        #Página atual estiver entre a primeira página e a sexta página
+        if ($currentPage <= 6){
+            $start = max(1, $currentPage - 4);
+            $end = 10;
+        }
+        #Página atual estiver entre a última página e 10 paginas antes
+        else if ($currentPage > $lastPage - 10){
+            $start = $lastPage - 10;
+            $end = $lastPage;
+        }
+        #Página atual estiver entre a sétima página e a dez páginas antes da última página
+        else{
+            $start = $currentPage - 4;
+            $end = $currentPage + 5;
         }
 
-        $start = max(1, $currentPage - 5);
-        $end = min($lastPage, $currentPage + 5);
-        for ($page = $start; $page < $end; $page++) {
+        for ($page = $start; $page <= $end; $page++) {
             $links[] = [
                 'url' => $request->fullUrlWithQuery(['page' => $page]),
                 'label' => $page,
@@ -69,27 +83,20 @@ readonly class FormacaoService
             ];
         }
 
-        if($currentPage < $lastPage) {
-            $links[] = [
-                'url' => $nextPageUrl,
-                'label' => 'Próximo &raquo;',
-                'active' => false
-            ];
-        }
+        $links[] = [
+            'url' => $nextPageUrl,
+            'label' => 'Próximo',
+            'active' => false
+        ];
+        $links[] = [
+            'url' => $lastPageUrl,
+            'label' => 'Última Página',
+            'active' => false
+        ];
+
         $listarFormacoesPaginateNativeResponse = new ListarFormacoesPaginateNativeResponse();
-        $listarFormacoesPaginateNativeResponse->setCurrentPage($currentPage);
         $listarFormacoesPaginateNativeResponse->setData($formacoesModel);
-        $listarFormacoesPaginateNativeResponse->setFirstPageUrl($firstPageUrl);
-        $listarFormacoesPaginateNativeResponse->setFrom($from);
-        $listarFormacoesPaginateNativeResponse->setLastPageUrl($lastPageUrl);
-        $listarFormacoesPaginateNativeResponse->setLastPage($lastPage);
         $listarFormacoesPaginateNativeResponse->setLinks($links);
-        $listarFormacoesPaginateNativeResponse->setNextPageUrl($nextPageUrl);
-        $listarFormacoesPaginateNativeResponse->setPath($pathUrl);
-        $listarFormacoesPaginateNativeResponse->setPerPage($perPage);
-        $listarFormacoesPaginateNativeResponse->setPrevPageUrl($previousPageUrl);
-        $listarFormacoesPaginateNativeResponse->setTo($to);
-        $listarFormacoesPaginateNativeResponse->setTotal($quantidadeFormacoes);
 
         return $listarFormacoesPaginateNativeResponse->toArray();
     }
