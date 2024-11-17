@@ -51,11 +51,6 @@ readonly class FormacaoService
         $previousPageUrl = $request->fullUrlWithQuery(['page' => $currentPage - 1]);
 
         $links = array();
-        $links[] = [
-            'url' => $firstPageUrl,
-            'label' => 'Primeira Página',
-            'active' => false
-        ];
         if ($currentPage > 1) {
             $links[] = [
                 'url' => $previousPageUrl,
@@ -63,20 +58,17 @@ readonly class FormacaoService
                 'active' => false
             ];
         }
-        for ($page = max(1, $currentPage - 4); $page < $currentPage; $page++) {
+
+        $start = max(1, $currentPage - 5);
+        $end = min($lastPage, $currentPage + 5);
+        for ($page = $start; $page < $end; $page++) {
             $links[] = [
                 'url' => $request->fullUrlWithQuery(['page' => $page]),
                 'label' => $page,
                 'active' => $page == $currentPage
             ];
         }
-        for ($page = $currentPage; $page <= min($currentPage + 5, $lastPage); $page++) {
-            $links[] = [
-                'url' => $request->fullUrlWithQuery(['page' => $page]),
-                'label' => $page,
-                'active' => $page == $currentPage
-            ];
-        }
+
         if($currentPage < $lastPage) {
             $links[] = [
                 'url' => $nextPageUrl,
@@ -84,11 +76,6 @@ readonly class FormacaoService
                 'active' => false
             ];
         }
-        $links[] = [
-            'url' => $lastPageUrl,
-            'label' => 'Última Página',
-            'active' => false
-        ];
         $listarFormacoesPaginateNativeResponse = new ListarFormacoesPaginateNativeResponse();
         $listarFormacoesPaginateNativeResponse->setCurrentPage($currentPage);
         $listarFormacoesPaginateNativeResponse->setData($formacoesModel);
