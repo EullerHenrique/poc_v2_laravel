@@ -11,7 +11,7 @@ class Formacao extends Model
     use HasFactory;
 
     protected $table = 'formacao';
-    protected $fillable = ['link', 'title', 'categoryName', 'kindDisplayName', 'icon', 'dateRemoved'];
+    protected $fillable = ['link', 'title', 'categoryName','icon', 'dateRemoved'];
 
     protected static function booted(): void
     {

@@ -38,7 +38,7 @@ readonly class FormacaoService
         }
 
         $currentPage = (int) $request->get('page', 1);
-        $perPage = $request->get('perPage', 15);
+        $perPage = $request->get('perPage', 16);
         $lastPage = ceil($quantidadeFormacoes / $perPage);
 
         $firstPageUrl = $request->fullUrlWithQuery(['page' => 1]);
@@ -62,7 +62,7 @@ readonly class FormacaoService
         #Página atual estiver entre a primeira página e a sexta página
         if ($currentPage <= 6){
             $start = max(1, $currentPage - 4);
-            $end = 10;
+            $end = min(10, $lastPage);
         }
         #Página atual estiver entre a última página e 10 paginas antes
         else if ($currentPage > $lastPage - 10){

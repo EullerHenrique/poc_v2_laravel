@@ -26,7 +26,6 @@ class SalvarFormacoesRequest extends FormRequest
             'formacao.*.link' => 'required',
             'formacao.*.title' => 'required',
             'formacao.*.categoryName' => 'required',
-            'formacao.*.kindDisplayName' => 'required',
             'formacao.*.icon' => 'required',
             'formacao.*.formattedDate' => 'required',
         ];

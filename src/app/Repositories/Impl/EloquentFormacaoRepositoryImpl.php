@@ -20,7 +20,7 @@ class EloquentFormacaoRepositoryImpl implements FormacaoRepository
 
     public function listarFormacoesPaginateLaravel(Request $request): LengthAwarePaginator
     {
-        $perPage = $request->get('perPage', 15);
+        $perPage = $request->get('perPage', 16);
         $query = Formacao::query();
         $result = $query->paginate($perPage);
         return $result->appends(['perPage' => $perPage]);
@@ -36,7 +36,7 @@ class EloquentFormacaoRepositoryImpl implements FormacaoRepository
         #Ex: 10
         $page = $request->get('page', 1);
         #Ex 20
-        $perPage = $request->get('perPage', 15);
+        $perPage = $request->get('perPage', 16);
         #Ex: (15 - 1) * 10 = 140
         $offset = ($page - 1) * $perPage;
 
@@ -55,7 +55,6 @@ class EloquentFormacaoRepositoryImpl implements FormacaoRepository
                 'link' => $formacao['link'],
                 'title' => $formacao['title'],
                 'categoryName' => $formacao['categoryName'],
-                'kindDisplayName' => $formacao['kindDisplayName'],
                 'icon' => $formacao['icon'],
                 'dateRemoved' => Carbon::createFromFormat('d/m/Y', $formacao['formattedDate']),
             ]);

@@ -16,7 +16,6 @@ return new class extends Migration
             $table->string('link');
             $table->string('title');
             $table->string('categoryName');
-            $table->string('kindDisplayName');
             $table->string('icon');
             $table->string('formattedDate');
         });
