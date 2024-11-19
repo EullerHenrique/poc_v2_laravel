@@ -31,20 +31,16 @@ class EloquentFormacaoRepositoryImpl implements FormacaoRepository
         return Formacao::count();
     }
 
-    public function listarFormacoesPaginateNative(Request $request): array
+    public function listarFormacoesPaginateNative(int $perPage, int $offset): array
     {
-        #Ex: 10
-        $page = $request->get('page', 1);
-        #Ex 20
-        $perPage = $request->get('perPage', 16);
-        #Ex: (15 - 1) * 10 = 140
-        $offset = ($page - 1) * $perPage;
+        #Ex: $currentPage = 10
+        #Ex: $perPage = 20
+        #Ex: $offset = (15 - 1) * 10 = 140 -> Busca os registros de 140 a 160
 
-        #Ex: Busca os registros de 140 a 160
         return DB::select(
             "SELECT * FROM formacao ORDER BY dateRemoved DESC LIMIT :perPage OFFSET :offset", [
             'perPage' => $perPage,
-            'offset' => $offset,
+            'offset' => $offset
         ]);
     }
 

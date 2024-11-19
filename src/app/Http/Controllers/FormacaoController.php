@@ -3,14 +3,14 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\SalvarFormacoesRequest;
-use App\Services\FormacaoService;
+use App\Services\Dto\FormacaoDtoService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 
 class FormacaoController extends Controller
 {
-    public function __construct(private readonly FormacaoService $formacaoService){}
+    public function __construct(private readonly FormacaoDtoService $formacaoService){}
 
     public function exibirPaginaFormacao(Request $request): View
     {

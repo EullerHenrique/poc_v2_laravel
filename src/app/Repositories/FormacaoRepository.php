@@ -14,7 +14,7 @@ interface FormacaoRepository
 
     public function listarFormacoesPaginateLaravel(Request $request): LengthAwarePaginator;
 
-    public function listarFormacoesPaginateNative(Request $request): array;
+    public function listarFormacoesPaginateNative(int $perPage, int $offset): array;
 
     public function salvarFormacoes(SalvarFormacoesRequest $request): void;
 }
