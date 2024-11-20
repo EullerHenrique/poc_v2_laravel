@@ -45,16 +45,16 @@ class PaginateNativeUtilService
     public function gerarLinksPaginacao(Request $request, array $camposPaginacao): array
     {
         $links = [];
-        $links[] = $this->criarLink($camposPaginacao['firstPageUrl'], 'Primeira Página', false);
-        $links[] = $this->criarLink($camposPaginacao['previousPageUrl'], 'Anterior', false);
+        $links[] = $this->criarLink($camposPaginacao['firstPageUrl'], 'first', false);
+        $links[] = $this->criarLink($camposPaginacao['previousPageUrl'], 'previous', false);
 
         $links = array_merge(
             $links,
             $this->gerarLinksIntermediariosPaginacao($request, $camposPaginacao['currentPage'], $camposPaginacao['lastPage'])
         );
 
-        $links[] = $this->criarLink($camposPaginacao['nextPageUrl'], 'Próximo', false);
-        $links[] = $this->criarLink($camposPaginacao['lastPageUrl'], 'Última Página', false);
+        $links[] = $this->criarLink($camposPaginacao['nextPageUrl'], 'next', false);
+        $links[] = $this->criarLink($camposPaginacao['lastPageUrl'], 'last', false);
 
         return $links;
     }

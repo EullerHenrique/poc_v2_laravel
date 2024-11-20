@@ -12,6 +12,7 @@
 
 1. Rode o comando:
     - docker-compose up -d
+    - npm install
     
 ### Ambiente de Desenvolvimento
 
@@ -35,5 +36,5 @@ php artisan make:model Formacao
 php artisan make:request SalvarFormacaoRequest
 php artisan make:provider FormacaoRepositoryProvider
 php artisan make:migration alter_column_formacao_table
-
-
+npm install -D sass-embedded
+npm install bootstrap
