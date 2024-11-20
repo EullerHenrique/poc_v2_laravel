@@ -13,7 +13,7 @@ class PaginateNativeUtilService
         $perPage = $request->get('perPage', 16);
         $lastPage = ceil($qtdResults / $perPage);
         $currentPage = min($lastPage, (int) $request->get('page', 1));
-        $offset = ($currentPage - 1) * $perPage;
+        $offset = max(1, ($currentPage - 1) * $perPage);
 
         return [
             'currentPage' => $currentPage,
@@ -45,17 +45,18 @@ class PaginateNativeUtilService
     public function gerarLinksPaginacao(Request $request, array $camposPaginacao): array
     {
         $links = [];
-        $links[] = $this->criarLink($camposPaginacao['firstPageUrl'], 'Primeira Página', false);
-        $links[] = $this->criarLink($camposPaginacao['previousPageUrl'], 'Anterior', false);
-
+        if ($camposPaginacao['currentPage'] > 1) {
+            $links[] = $this->criarLink($camposPaginacao['firstPageUrl'], 'Primeira Página', false);
+            $links[] = $this->criarLink($camposPaginacao['previousPageUrl'], 'Anterior', false);
+        }
         $links = array_merge(
             $links,
             $this->gerarLinksIntermediariosPaginacao($request, $camposPaginacao['currentPage'], $camposPaginacao['lastPage'])
         );
-
-        $links[] = $this->criarLink($camposPaginacao['nextPageUrl'], 'Próximo', false);
-        $links[] = $this->criarLink($camposPaginacao['lastPageUrl'], 'Última Página', false);
-
+        if ($camposPaginacao['currentPage'] < $camposPaginacao['lastPage']) {
+            $links[] = $this->criarLink($camposPaginacao['nextPageUrl'], 'Próximo', false);
+            $links[] = $this->criarLink($camposPaginacao['lastPageUrl'], 'Última Página', false);
+        }
         return $links;
     }
 
