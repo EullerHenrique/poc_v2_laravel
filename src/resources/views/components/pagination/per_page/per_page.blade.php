@@ -1,7 +1,7 @@
 
 <div class="row">
     <div class="col d-flex justify-content-end">
-        <span class="mt-1 me-1">Exibir: </span>
+        <span class="mt-1 me-2">Exibir: </span>
         <div>
             <select class="form-select">
                 <option value="16">16</option>
@@ -14,6 +14,7 @@
                 <option value="1006">1006</option>
             </select>
         </div>
+        <span class="mt-1 ms-2">por página</span>
     </div>
 </div>
 
