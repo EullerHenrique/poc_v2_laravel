@@ -1,4 +1,5 @@
 <x-layout title="Alura - Formações Descontinuadas">
-    <x-card :infos="$formacoes"></x-card>
+    <x-pagination.per_page></x-pagination.per_page>
+    <x-pagination.card :infos="$formacoes"></x-pagination.card>
     <x-pagination :links="$links"></x-pagination>
 </x-layout>
