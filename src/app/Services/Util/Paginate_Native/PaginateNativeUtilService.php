@@ -10,6 +10,7 @@ class PaginateNativeUtilService
 
     public function obterCamposPaginacao(Request $request, int $qtdResults): array
     {
+        #Se nao existir ou se o valor for vazio
         $perPage = $request->get('perPage', 16);
         $lastPage = ceil($qtdResults / $perPage);
         $currentPage = min($lastPage, (int) $request->get('page', 1));

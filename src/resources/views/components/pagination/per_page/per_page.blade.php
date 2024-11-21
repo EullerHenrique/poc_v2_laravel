@@ -1,20 +1,15 @@
-
 <div class="row">
     <div class="col d-flex justify-content-end">
-        <span class="mt-1 me-2">Exibir: </span>
+        <span class="mt-1 me-2">Exibir:</span>
         <div>
-            <select class="form-select">
-                <option value="16">16</option>
-                <option value="36">36</option>
-                <option value="56">56</option>
-                <option value="76">76</option>
-                <option value="96">96</option>
-                <option value="206">206</option>
-                <option value="406">406</option>
-                <option value="1006">1006</option>
+            <select class="form-select" onchange="location.href='{{ request()->fullUrlWithQuery(['perPage' => '']) }}'.replace('perPage=', 'perPage=' + this.value)">
+                @foreach($options as $option)
+                    <option value="{{ $option }}" {{ request('perPage', $options[0]) == $option ? 'selected' : '' }}>
+                        {{ $option }}
+                    </option>
+                @endforeach
             </select>
         </div>
         <span class="mt-1 ms-2">por página</span>
     </div>
 </div>
-
